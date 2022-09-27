@@ -17,10 +17,16 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Project", "Project", "{F0E480F1-59EE-4FB7-9805-1FD582A78BEE}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Navigation", "Navigation", "{0CE62B3B-3617-4E40-8F92-C4FEE6829368}"
+	ProjectSection(SolutionItems) = preProject
+		src\Feature\Navigation\navigation.module.json = src\Feature\Navigation\navigation.module.json
+	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SitecoreDemo.Feature.Navigation", "src\Feature\Navigation\code\SitecoreDemo.Feature.Navigation.csproj", "{BDFFDDF7-8A1F-40EA-BA1B-32C06B9AD986}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Website", "Website", "{A06874FE-33B7-45CF-8C49-A70222F40911}"
+	ProjectSection(SolutionItems) = preProject
+		src\Project\Website\website.module.json = src\Project\Website\website.module.json
+	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SitecoreDemo.Project.CoporateWebsite", "src\Project\Website\code\SitecoreDemo.Project.CoporateWebsite.csproj", "{267AE2B1-690D-4FBC-8788-E3018BE2449F}"
 EndProject
