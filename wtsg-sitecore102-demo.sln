@@ -22,6 +22,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Navigation", "Navigation", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SitecoreDemo.Feature.Navigation", "src\Feature\Navigation\code\SitecoreDemo.Feature.Navigation.csproj", "{BDFFDDF7-8A1F-40EA-BA1B-32C06B9AD986}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Website", "Website", "{A06874FE-33B7-45CF-8C49-A70222F40911}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -41,9 +43,10 @@ Global
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
-		{267AE2B1-690D-4FBC-8788-E3018BE2449F} = {F0E480F1-59EE-4FB7-9805-1FD582A78BEE}
+		{267AE2B1-690D-4FBC-8788-E3018BE2449F} = {A06874FE-33B7-45CF-8C49-A70222F40911}
 		{0CE62B3B-3617-4E40-8F92-C4FEE6829368} = {CAC222FD-CEE0-48BE-9FF9-9FEBBC5B16C2}
 		{BDFFDDF7-8A1F-40EA-BA1B-32C06B9AD986} = {0CE62B3B-3617-4E40-8F92-C4FEE6829368}
+		{A06874FE-33B7-45CF-8C49-A70222F40911} = {F0E480F1-59EE-4FB7-9805-1FD582A78BEE}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {0476492D-1DAF-43A6-ABD7-BB047D60A3FF}
