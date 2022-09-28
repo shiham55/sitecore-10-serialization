@@ -2,7 +2,7 @@
 
 todo: project intro
 
-> #### Setup instructions
+#### Setup instructions
 
 ##### Prerequists 
 
@@ -10,6 +10,7 @@ todo: project intro
 - Install Sitcore 10.2 locally
   - CM : https://sitecoredemossc.dev.local/sitecore/
   - ID : https://sitecoredemosidentityserver.dev.local/
+- Install Sitecore Management Services Module in Sitecore instance
 
 ##### Configuration
 - Open command prompt from project root
