@@ -764,6 +764,7 @@
     </Content>
     <Content Include="Views\web.config" />
     <Content Include="Views\Proejct\Layouts\CoporateWebsiteLayout.cshtml" />
+    <Content Include="App_Config\Include\SitecoreDemos\Project\SiteDefinition.SitecoreDemos.config" />
     <None Include="packages.config" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
