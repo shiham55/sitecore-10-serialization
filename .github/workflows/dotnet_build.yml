@@ -23,4 +23,4 @@ jobs:
     - name: Restore NuGet packages
       run: nuget restore wtsg-sitecore102-demo.sln
     - name: Build
-      run: msbuild wtsg-sitecore102-demo.sln /p:Configuration=${{ inputs.buildConfiguration }}
+      run: msbuild wtsg-sitecore102-demo.sln /p:Configuration=${{ inputs.buildConfiguration }} /p:Platform="Any CPU"
