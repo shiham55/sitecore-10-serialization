@@ -43,7 +43,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Content Include="Views\web.config" />
+    <None Include="Views\web.config" />
     <Content Include="Views\Feature\MainNavigation\Header.cshtml" />
     <Content Include="Views\Feature\MainNavigation\Footer.cshtml" />
     <None Include="Web.config" />
