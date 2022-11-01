@@ -1,12 +1,8 @@
 ﻿---
-ID: "954b652e-3fb0-4440-ae53-6e007bd85e77"
-Parent: "d396bbdf-9652-4cb1-9687-3140e8b2d061"
-Template: "3a45a723-64ee-4919-9d41-02fd40fd1466"
-Path: /sitecore/layout/Layouts/SitecoreDemo/Project/CoporateWebsiteLayout
-SharedFields:
-- ID: "a036b2bc-ba04-44f6-a75f-bae6cd242abf"
-  Hint: Path
-  Value: ~/Views/Proejct/Layouts/CoporateWebsiteLayout.cshtml
+ID: "a8a35600-f82f-4248-a5d2-8142032e56a3"
+Parent: "62608b39-ac52-48a6-b763-9f6b51deefc6"
+Template: "7ee0975b-0698-493e-b3a2-0b2ef33d0522"
+Path: /sitecore/layout/Renderings/SitecoreDemo/Feature/Navigation
 Languages:
 - Language: en
   Versions:
@@ -14,7 +10,7 @@ Languages:
     Fields:
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
-      Value: 20220928T024110Z
+      Value: 20221101T075243Z
     - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
       Hint: __Owner
       Value: |
@@ -25,11 +21,11 @@ Languages:
         sitecore\Admin
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "175de6ea-6826-46ad-a947-d0e65ea36422"
+      Value: "9d5c71ea-82c8-4cbd-a668-20af3f8f6047"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
         sitecore\Admin
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20220928T031536Z
+      Value: 20221101T075243Z
