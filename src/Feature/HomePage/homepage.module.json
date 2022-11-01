@@ -1,0 +1,15 @@
+{
+  "namespace": "Feature.HomePage",
+  "items": {
+    "includes": [
+      {
+        "name": "templates",
+        "path": "/sitecore/templates/SitecoreDemo/Feature/HomePage"
+      },
+      {
+        "name": "renderings",
+        "path": "/sitecore/layout/renderings/SitecoreDemo/Feature/HomePage"
+      }
+    ]
+  }
+}

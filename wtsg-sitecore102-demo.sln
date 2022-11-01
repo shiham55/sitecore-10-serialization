@@ -31,8 +31,13 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SitecoreDemo.Project.CoporateWebsite", "src\Project\Website\code\SitecoreDemo.Project.CoporateWebsite.csproj", "{267AE2B1-690D-4FBC-8788-E3018BE2449F}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "HomePage", "HomePage", "{2B4EE606-62A2-4BB1-907B-855D9C695454}"
+	ProjectSection(SolutionItems) = preProject
+		src\Feature\HomePage\homepage.module.json = src\Feature\HomePage\homepage.module.json
+	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SitecoreDemo.Feature.HomePage", "src\Feature\HomePage\code\SitecoreDemo.Feature.HomePage.csproj", "{2C5DBC56-1E4E-4EE2-9881-95AF9EE5600E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CommanBase", "CommanBase", "{40B5E6CE-9799-44A7-85B2-829079859D02}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -63,9 +68,10 @@ Global
 		{267AE2B1-690D-4FBC-8788-E3018BE2449F} = {A06874FE-33B7-45CF-8C49-A70222F40911}
 		{2B4EE606-62A2-4BB1-907B-855D9C695454} = {CAC222FD-CEE0-48BE-9FF9-9FEBBC5B16C2}
 		{2C5DBC56-1E4E-4EE2-9881-95AF9EE5600E} = {2B4EE606-62A2-4BB1-907B-855D9C695454}
+		{40B5E6CE-9799-44A7-85B2-829079859D02} = {A3CB0222-D709-43B5-9F71-02837C6F3111}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {0476492D-1DAF-43A6-ABD7-BB047D60A3FF}
 		EnterpriseLibraryConfigurationToolBinariesPathV6 = packages\EnterpriseLibrary.Common.6.0.1304.0\lib\NET45;packages\EnterpriseLibrary.TransientFaultHandling.6.0.1304.0\lib\portable-net45+win+wp8;packages\EnterpriseLibrary.TransientFaultHandling.Caching.6.0.1304.0\lib\NET45;packages\EnterpriseLibrary.TransientFaultHandling.Data.6.0.1304.1\lib\NET45;packages\EnterpriseLibrary.TransientFaultHandling.ServiceBus.6.0.1304.0\lib\NET45;packages\EnterpriseLibrary.TransientFaultHandling.WindowsAzure.Storage.6.0.1304.0\lib\NET45;packages\EnterpriseLibrary.TransientFaultHandling.Configuration.6.0.1304.0\lib\NET45
+		SolutionGuid = {0476492D-1DAF-43A6-ABD7-BB047D60A3FF}
 	EndGlobalSection
 EndGlobal

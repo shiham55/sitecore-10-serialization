@@ -16,6 +16,18 @@ SharedFields:
           ph="header-top"
           uid="{3CF3D4E1-5FBE-4BA3-B9E3-24D53057F171}" />
         <r
+          id="{9C974FAE-37D5-47B5-ADBF-2C70B2C2402A}"
+          ph="body"
+          uid="{3AB2EA7E-FCBB-4E33-ACC7-B52CC4C421FA}" />
+        <r
+          id="{442B09D6-E351-4B57-A6BA-41EBA6378CCB}"
+          ph="body"
+          uid="{6FBBDA22-10DA-4A2A-80D6-5AD5D66B0C26}" />
+        <r
+          id="{F4BEE2F4-4C4E-49D2-884C-4BAAB2308375}"
+          ph="body"
+          uid="{1DD06722-05C4-49FF-8C1D-1DE398F59268}" />
+        <r
           id="{C341CAC9-C5F1-4EDC-AECF-F8B84E94ED38}"
           ph="footer"
           uid="{096A0420-C568-42E0-8A12-7B0793EE76DB}" />
@@ -39,11 +51,11 @@ Languages:
         sitecore\Admin
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "68f0d11a-3661-4427-a7c2-c9ca5eef65d3"
+      Value: "6f6e43ca-a53e-417a-a654-9fe8ee5da4ff"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
         sitecore\Admin
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20221101T075652Z
+      Value: 20221101T102625Z

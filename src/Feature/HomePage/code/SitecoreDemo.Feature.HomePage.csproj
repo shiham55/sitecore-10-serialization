@@ -269,10 +269,14 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Views\Feature\HomePage\Widgets\Banner.cshtml" />
+    <Content Include="Views\Feature\HomePage\Widgets\Destinations.cshtml" />
+    <Content Include="Views\Feature\HomePage\Widgets\FeaturedContent.cshtml" />
     <None Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="App_Start\RazorGeneratorMvcStart.cs" />
+    <Compile Include="Controllers\WidgetsController.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -284,6 +288,7 @@
       <DependentUpon>Web.config</DependentUpon>
     </None>
   </ItemGroup>
+  <ItemGroup />
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
